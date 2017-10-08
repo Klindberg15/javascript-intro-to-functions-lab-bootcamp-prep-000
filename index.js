@@ -15,17 +15,11 @@ function whisper(string) {
   }
 
 function sayHiToGrandma(string){
-    var string2 = "I can't hear you!"
-  if(string = string.toLowerCase){
-    console.log(string2)
-    return string2
-  }
+  if(string === string.toLowerCase()){
+    return ("I can't hear you!")
+  } else if (string === string.toUpperCase()){
+   return ("YES INDEED!")
+} else if (string === "I love you, Grandma"){
+  return ("I love you, too.")
 }
-
-function sayHiToGrandma(string){
-  var string3 = "YES INDEED!"
-  if(string = string.toUpperCase){
-    console.log(string3)
-    return string3
-  }
 }
